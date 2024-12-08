@@ -3,13 +3,13 @@
   <br />
   <br />
   <a href="https://huggingface.co/datasets/microsoft/RedStone"><img alt="MIT License" src="https://img.shields.io/badge/Hugging%20Face-Data Index-orange?logo=huggingface" /></a>
-  <a href="https://xxx"><img alt="MIT License" src="https://img.shields.io/badge/ArXiv-paper-green.svg" /></a>
+  <a href="https://arxiv.org/abs/2412.03398"><img alt="MIT License" src="https://img.shields.io/badge/ArXiv-2412.03398-green.svg" /></a>
   <a href="https://github.com/microsoft/RedStone/blob/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
 </p>
 
 --------------------------------------------------------------------------------
 
-# [REDSTONE : Curating General, Code, Math, and QA Data for Large Language Models](xxx)
+# [REDSTONE : Curating General, Code, Math, and QA Data for Large Language Models](https://arxiv.org/abs/2412.03398)
 
 **RedStone** is an innovative and scalable pipeline designed to extract and process data from a vast amount of web content, facilitating the creation of diverse and comprehensive pre-training datasets. We demonstrate its capabilities by building pre-training datasets across multiple domains, including general, code, mathematics, and question-answering. REDSTONE's flexibility allows it to easily adapt to various specialized fields.
 

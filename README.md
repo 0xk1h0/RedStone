@@ -90,8 +90,8 @@ If you have the appropriate licenses, **we encourage you to use these scripts to
 # Citation
 If you find this repository useful, please consider citing our work:
 ```
-@article{chang2024redstone,
-  title={RedStone: Curating General, Code, Math, and QA Data for Large Language Models},
+@article{redstone,
+  title={{RedStone}: {Curating} General, Code, Math, and {QA} Data for Large Language Models},
   author={Chang, Yaoyao and Cui, Lei and Dong, Li and Huang, Shaohan and Huang, Yangyu and Huang, Yupan and Li, Scarlett and Lv, Tengchao and Ma, Shuming and Sun, Qinzheng and others},
   journal={arXiv preprint arXiv:2412.03398},
   year={2024}

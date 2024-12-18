@@ -21,11 +21,16 @@ The framework is supported in the following environments. While other operating 
  - [Python-3.10.14](https://www.python.org/downloads/)
  - Python dependencies in [requirements.txt](requirements.txt) file
 
-2.	Installation
-
+2.  Installation
+ 
 ```
-# The required libraries will be installed.
+# The depended libraries will be installed.
 pip install -r requirements.txt
+ 
+# The required models (mcq, openquestion, and math) will be downloaded and unzipped. And the sample codes of applying these models could refer to core/layers/transform/{math/mcq/openquestion}_filter_layer.py
+wget -O models.tar.gz --no-check-certificate -r '[google_drive_link]'
+tar -zxvf models.tar.gz
+remove models.tar.gz
 ```
 
 3.	Usage:

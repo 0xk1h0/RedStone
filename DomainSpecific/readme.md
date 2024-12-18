@@ -26,14 +26,18 @@ The framework is supported in the following environments. While other operating 
 ```
 # The depended libraries will be installed.
 pip install -r requirements.txt
- 
-# The required models (mcq, openquestion, and math) will be downloaded and unzipped. And the sample codes of applying these models could refer to core/layers/transform/{math/mcq/openquestion}_filter_layer.py
-wget -O models.tar.gz --no-check-certificate -r '[google_drive_link]'
+```
+
+3. Download filters
+   
+Please download all the filtering models used for domain-specific data processing [here](https://drive.google.com/file/d/1FJCEQa1mWZ2gGD_NdAJibeKk6UaZhi7R/view?usp=drive_link), and then unzip them. The sample codes of applying these models could refer to core/layers/transform/{math/mcq/openquestion}_filter_layer.py
+
+```
 tar -zxvf models.tar.gz
 remove models.tar.gz
 ```
 
-3.	Usage:
+4.	Usage:
 
 ```
 # The runtime-dependencies will be installed, and an 'env_ready' file will be generated upon first use.
@@ -46,7 +50,7 @@ python submit.py --network_path=${network_path} --run_mode=${run_mode} --computa
  - storage_path: the path of setting file, which describes the storage resource.
  - docker_path: the path of setting file, which describes the environment resource (ignore it, currently not implemented yet).
 
-4.	Examples:
+5.	Examples:
  - Toy Sample:
 ```
 # Please firstly run this command to ensure the installation is correct.

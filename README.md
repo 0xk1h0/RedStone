@@ -21,7 +21,7 @@
 | REDSTONE-Math   | 15.9       |
 | REDSTONE-QA     | 51.4       |
 
-**UPDATE**: We sincerely appreciate **zjsd** for replicating the general-cc dataset from redstone using released code. The dataset is now available for download [here](https://huggingface.co/datasets/zjsd/RedStone). We have verified the dataset's scale and manually reviewed some samples, it is comparable to general-cc in both size and quality.
+**UPDATE**: We sincerely appreciate **zjsd** replicating the general-cc dataset from RedStone using the released code. The dataset is now available for download [here](https://huggingface.co/datasets/zjsd/RedStone). We have verified the dataset's scale and manually reviewed some samples, it is comparable to general-cc in both size and quality.
 
 **Note：** Since **we do not have the permission to open-source the processed data**, We provide all the code for RedStone to process both general and domain-specific data, along with an [index](https://huggingface.co/datasets/microsoft/RedStone) for high-quality data from Common Crawl after filtering. You can download the raw Common Crawl data, use the provided index to find high-quality pages, and process them with RedStone's scripts.
 

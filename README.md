@@ -2,7 +2,7 @@
   <img src="assets/icon.png" width="150">
   <br />
   <br />
-  <a href="https://huggingface.co/datasets/microsoft/RedStone"><img alt="MIT License" src="https://img.shields.io/badge/Hugging%20Face-Data Index-orange?logo=huggingface" /></a>
+  <a href="https://huggingface.co/datasets/zjsd/RedStone"><img alt="MIT License" src="https://img.shields.io/badge/Hugging%20Face-Dataset-orange?logo=huggingface" /></a>
   <a href="https://arxiv.org/abs/2412.03398"><img alt="MIT License" src="https://img.shields.io/badge/ArXiv-2412.03398-green.svg" /></a>
   <a href="https://github.com/microsoft/RedStone/blob/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
 </p>

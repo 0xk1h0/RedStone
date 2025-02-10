@@ -14,16 +14,16 @@
 **RedStone** is an innovative and scalable pipeline designed to extract and process data from a vast amount of web content, facilitating the creation of diverse and comprehensive pre-training datasets. We demonstrate its capabilities by building pre-training datasets across multiple domains, including general, code, mathematics, and question-answering. REDSTONE's flexibility allows it to easily adapt to various specialized fields.
 
 # Dataset
-| Datasets        | Tokens (B) |
-|-----------------|------------|
-| REDSTONE-Web    | 3,170.2    |
-| REDSTONE-Code   | 250.2      |
-| REDSTONE-Math   | 15.9       |
-| REDSTONE-QA     | 51.4       |
+| Datasets        | Tokens (B) | Link |
+|-----------------|------------| ---- |
+| REDSTONE-Web    | 3,170.2    | [REDSTONE-Web](https://huggingface.co/datasets/zjsd/RedStone) |
+| REDSTONE-Code   | 250.2      | [REDSTONE-Code-python (Python Only)](https://huggingface.co/datasets/zjsd/RedStone-Code-python) |
+| REDSTONE-Math   | 15.9       | [REDSTONE-Math](https://huggingface.co/datasets/zjsd/RedStone-Math) |
+| REDSTONE-QA     | 51.4       | [Open Question](https://huggingface.co/datasets/zjsd/RedStone-QA-oq) [Multi-choice Question](https://huggingface.co/datasets/zjsd/RedStone-QA-mcq) |
 
-**UPDATE**: We sincerely appreciate **zjsd** replicating the general-cc dataset from RedStone using the released code. The dataset is now available for download [here](https://huggingface.co/datasets/zjsd/RedStone). We have verified the dataset's scale and manually reviewed some samples, it is comparable to general-cc in both size and quality.
+**UPDATE [2/10/2025]**: All open-source datasets are reproduced by [@zjsd](https://huggingface.co/zjsd) based on our open-source code. We have verified the scale of these datasets and manually reviewed some samples; they are comparable to our internal datasets in both size and quality.
 
-**Note：** Since **we do not have the permission to open-source the processed data**, We provide all the code for RedStone to process both general and domain-specific data, along with an [index](https://huggingface.co/datasets/microsoft/RedStone) for high-quality data from Common Crawl after filtering. You can download the raw Common Crawl data, use the provided index to find high-quality pages, and process them with RedStone's scripts.
+**Note [12/08/2024]：** Since **we do not have the permission to open-source the processed data**, We provide all the code for RedStone to process both general and domain-specific data, along with an [index](https://huggingface.co/datasets/microsoft/RedStone) for high-quality data from Common Crawl after filtering. You can download the raw Common Crawl data, use the provided index to find high-quality pages, and process them with RedStone's scripts.
 
 If you have the appropriate licenses, **we encourage you to use these scripts to reproduce the dataset and contribute it to the open-source community**. We will reference the data here for easy access. Additionally, we welcome you to use RedStone to expand domain-specific categories beyond just code, math, and QA.
 

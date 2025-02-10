@@ -19,7 +19,7 @@
 | REDSTONE-Web    | 3,170.2    | [REDSTONE-Web](https://huggingface.co/datasets/zjsd/RedStone) |
 | REDSTONE-Code   | 250.2      | [REDSTONE-Code-python (Python Only)](https://huggingface.co/datasets/zjsd/RedStone-Code-python) |
 | REDSTONE-Math   | 15.9       | [REDSTONE-Math](https://huggingface.co/datasets/zjsd/RedStone-Math) |
-| REDSTONE-QA     | 51.4       | [Open Question](https://huggingface.co/datasets/zjsd/RedStone-QA-oq) [Multi-choice Question](https://huggingface.co/datasets/zjsd/RedStone-QA-mcq) |
+| REDSTONE-QA     | 51.4       | [REDSTONE-OpenQuestion](https://huggingface.co/datasets/zjsd/RedStone-QA-oq) [REDSTONE-MultiChoiceQuestion](https://huggingface.co/datasets/zjsd/RedStone-QA-mcq) |
 
 **UPDATE [2/10/2025]**: All open-source datasets are reproduced by [@zjsd](https://huggingface.co/zjsd) based on our open-source code. We have verified the scale of these datasets and manually reviewed some samples; they are comparable to our internal datasets in both size and quality.
 
